@@ -1,0 +1,9 @@
+23:35:05 INFO  : Registering command handlers for SDK TCF services
+23:35:07 INFO  : Launching XSCT server: xsct.bat -interactive D:\XILINX2019\adcx\adcx.sdk\temp_xsdb_launch_script.tcl
+23:35:17 INFO  : XSCT server has started successfully.
+23:35:28 INFO  : Successfully done setting XSCT server connection channel  
+23:35:28 INFO  : Successfully done setting SDK workspace  
+23:35:29 INFO  : Processing command line option -hwspec D:/XILINX2019/adcx/adcx.sdk/design_1_wrapper.hdf.
+23:36:26 WARN  : Hardware project 'design_1_wrapper_hw_platform_0' doesn't have any processor instances.
+23:36:32 WARN  : Hardware project 'design_1_wrapper_hw_platform_0' doesn't have any processor instances.
+23:36:58 WARN  : Hardware project 'design_1_wrapper_hw_platform_0' doesn't have any processor instances.

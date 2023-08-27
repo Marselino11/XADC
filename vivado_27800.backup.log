@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jun  6 14:05:19 2023
+# Process ID: 27800
+# Current directory: D:/XILINX2019/adcx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17920 D:\XILINX2019\adcx\adcx.xpr
+# Log file: D:/XILINX2019/adcx/vivado.log
+# Journal file: D:/XILINX2019/adcx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XILINX2019/adcx/adcx.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX2019/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:01:12 . Memory (MB): peak = 678.859 ; gain = 102.594
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 14:09:48 2023...
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()

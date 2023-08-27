@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun  2 23:31:34 2023
+# Process ID: 12704
+# Current directory: D:/XILINX2019/adcx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6264 D:\XILINX2019\adcx\adcx.xpr
+# Log file: D:/XILINX2019/adcx/vivado.log
+# Journal file: D:/XILINX2019/adcx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XILINX2019/adcx/adcx.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/XILINX2019/adcx/adcx.sdk
+file copy -force D:/XILINX2019/adcx/adcx.runs/impl_1/design_1_wrapper.sysdef D:/XILINX2019/adcx/adcx.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace D:/XILINX2019/adcx/adcx.sdk -hwspec D:/XILINX2019/adcx/adcx.sdk/design_1_wrapper.hdf

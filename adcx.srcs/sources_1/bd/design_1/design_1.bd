@@ -1,0 +1,121 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x786DD367E3170B29",
+      "device": "xc7a35ticsg324-1L",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xadc_wiz_0": ""
+    },
+    "interface_ports": {
+      "Vp_Vn": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0"
+      },
+      "Vaux12": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0"
+      },
+      "Vaux13": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0"
+      },
+      "Vaux14": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0"
+      }
+    },
+    "components": {
+      "xadc_wiz_0": {
+        "vlnv": "xilinx.com:ip:xadc_wiz:3.3",
+        "xci_name": "design_1_xadc_wiz_0_0",
+        "parameters": {
+          "AVERAGE_ENABLE_TEMPERATURE": {
+            "value": "true"
+          },
+          "AVERAGE_ENABLE_VAUXP12_VAUXN12": {
+            "value": "true"
+          },
+          "AVERAGE_ENABLE_VAUXP13_VAUXN13": {
+            "value": "true"
+          },
+          "AVERAGE_ENABLE_VAUXP14_VAUXN14": {
+            "value": "true"
+          },
+          "AVERAGE_ENABLE_VP_VN": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_TEMPERATURE": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP12_VAUXN12": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP13_VAUXN13": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP14_VAUXN14": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VP_VN": {
+            "value": "true"
+          },
+          "ENABLE_DCLK": {
+            "value": "false"
+          },
+          "ENABLE_DRP": {
+            "value": "false"
+          },
+          "ENABLE_RESET": {
+            "value": "true"
+          },
+          "EXTERNAL_MUX_CHANNEL": {
+            "value": "VP_VN"
+          },
+          "INTERFACE_SELECTION": {
+            "value": "None"
+          },
+          "SEQUENCER_MODE": {
+            "value": "Continuous"
+          },
+          "SINGLE_CHANNEL_SELECTION": {
+            "value": "TEMPERATURE"
+          },
+          "XADC_STARUP_SELECTION": {
+            "value": "channel_sequencer"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "Vaux13_1": {
+        "interface_ports": [
+          "Vaux13",
+          "xadc_wiz_0/Vaux13"
+        ]
+      },
+      "Vaux12_1": {
+        "interface_ports": [
+          "Vaux12",
+          "xadc_wiz_0/Vaux12"
+        ]
+      },
+      "Vaux14_1": {
+        "interface_ports": [
+          "Vaux14",
+          "xadc_wiz_0/Vaux14"
+        ]
+      },
+      "Vp_Vn_1": {
+        "interface_ports": [
+          "Vp_Vn",
+          "xadc_wiz_0/Vp_Vn"
+        ]
+      }
+    }
+  }
+}
